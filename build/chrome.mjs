@@ -1,8 +1,8 @@
 /* Page shell: head, top bar, header/nav, footer, reusable blocks. */
 import { BIZ, LOGO_SRCSET, LOGO_ALT, BBB_ALT, icon, BIO_SERVICES, HOARD_SERVICES } from './parts.mjs';
 
-const BIO_URL = '/biohazard-services/';
-const HOARD_URL = '/hoarding-cleanup-services/';
+const BIO_URL = '/services/biohazard/';
+const HOARD_URL = '/services/hoarding/';
 
 /* ------------------------------------------------------------------ head */
 function head(p) {
@@ -113,8 +113,8 @@ function header(active) {
           <button type="button" class="nav-link" aria-expanded="false">About ${icon('chev', 'chev')}</button>
           <ul class="sub">
             <li><a href="/about/">About Us</a></li>
-            <li><a href="/about/who-we-serve/">Who We Serve</a></li>
-            <li><a href="/careers/">Careers</a></li>
+            <li><a href="/who-we-help/">Who We Serve</a></li>
+            <li><a href="/join-our-team/">Careers</a></li>
           </ul>
         </li>
         <li class="has-sub">
@@ -133,7 +133,7 @@ function header(active) {
             ${subLinks(HOARD_SERVICES, HOARD_URL)}
           </ul>
         </li>
-        <li><a class="nav-link"${cur('areas')} href="/areas-we-service/">Service Area</a></li>
+        <li><a class="nav-link"${cur('areas')} href="/service-area/">Service Area</a></li>
         <li><a class="nav-link"${cur('contact')} href="/contact-us/">Contact Us</a></li>
       </ul>
       <div class="nav-mobile-cta">
@@ -196,11 +196,11 @@ function footer() {
       ${col('Navigation', [
         ['Home', '/'],
         ['About', '/about/'],
-        ['Who We Serve', '/about/who-we-serve/'],
+        ['Who We Serve', '/who-we-help/'],
         ['Biohazard Services', BIO_URL],
         ['Hoarding &amp; Cleanup Services', HOARD_URL],
-        ['Areas We Service', '/areas-we-service/'],
-        ['Careers', '/careers/'],
+        ['Areas We Service', '/service-area/'],
+        ['Careers', '/join-our-team/'],
         ['Contact Us', '/contact-us/'],
         ['Leave us a review', '/review']
       ])}

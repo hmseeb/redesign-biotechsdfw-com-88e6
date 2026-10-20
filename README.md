@@ -10,11 +10,11 @@ to serve it.
 | --- | --- |
 | `/` | `index.html` |
 | `/about/` | `about/index.html` |
-| `/about/who-we-serve/` | `about/who-we-serve/index.html` |
-| `/careers/` | `careers/index.html` |
-| `/biohazard-services/` | `biohazard-services/index.html` |
-| `/hoarding-cleanup-services/` | `hoarding-cleanup-services/index.html` |
-| `/areas-we-service/` | `areas-we-service/index.html` |
+| `/who-we-help/` | `who-we-help/index.html` |
+| `/join-our-team/` | `join-our-team/index.html` |
+| `/services/biohazard/` | `services/biohazard/index.html` |
+| `/services/hoarding/` | `services/hoarding/index.html` |
+| `/service-area/` | `service-area/index.html` |
 | `/contact-us/` | `contact-us/index.html` |
 | `/terms-of-service/` | `terms-of-service/index.html` |
 | `/privacy-policy/` | `privacy-policy/index.html` |

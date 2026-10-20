@@ -2,8 +2,8 @@
 import { BIZ, icon, BIO_SERVICES, HOARD_SERVICES } from './parts.mjs';
 import { ctaBand, quickForm, careersForm, submittedBanner } from './chrome.mjs';
 
-const BIO_URL = '/biohazard-services/';
-const HOARD_URL = '/hoarding-cleanup-services/';
+const BIO_URL = '/services/biohazard/';
+const HOARD_URL = '/services/hoarding/';
 
 const STEPS = [
   ['You call, we answer', 'A real member of our team takes your call at any hour. We gather the few details we need and dispatch — no call-centre queue, no waiting until morning.'],
@@ -147,7 +147,7 @@ export function home() {
         <li>${icon('check')}<span><strong>Residential, commercial, industrial and municipal</strong> property all within scope.</span></li>
       </ul>
       <div class="btn-row" style="margin-top:28px">
-        <a class="btn btn-primary" href="/areas-we-service/">Areas we service ${icon('arrow')}</a>
+        <a class="btn btn-primary" href="/service-area/">Areas we service ${icon('arrow')}</a>
       </div>
     </div>
     <div class="stat-grid reveal">
@@ -334,10 +334,10 @@ export function whoWeServe() {
 ${ctaBand({ heading: 'Tell us what you are dealing with', text: 'We are available around the clock, every day of the year, providing fast, professional response whenever you need support restoring your space.' })}`;
 
   return {
-    file: 'about/who-we-serve/index.html',
+    file: 'who-we-help/index.html',
     title: 'Who We Serve | BioTechs Online Dallas–Fort Worth',
     desc: 'BioTechs Online serves homeowners, landlords, businesses, law enforcement, municipalities, care facilities and estates across Dallas–Fort Worth with 24/7 biohazard remediation.',
-    url: '/about/who-we-serve/',
+    url: '/who-we-help/',
     active: 'about',
     body
   };
@@ -389,10 +389,10 @@ export function careers() {
 ${ctaBand({ heading: 'Questions before you apply?', text: 'Call either office or send us an email and we will tell you honestly what the work is like day to day.' })}`;
 
   return {
-    file: 'careers/index.html',
+    file: 'join-our-team/index.html',
     title: 'Careers | BioTechs Online Dallas–Fort Worth',
     desc: 'Join the BioTechs Online remediation team in Dallas or Fort Worth. Apply online for biohazard remediation technician work across the DFW metroplex.',
-    url: '/careers/',
+    url: '/join-our-team/',
     active: 'about',
     body
   };

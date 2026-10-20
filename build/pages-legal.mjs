@@ -237,11 +237,11 @@ export function notFound() {
       <h2>Where you were probably heading</h2>
     </div>
     <div class="tiles reveal">
-      <a class="tile" href="/biohazard-services/"><span class="dot"></span><span><strong>Biohazard Services</strong><span>Blood, crime scene, death, decomposition, hazmat and drug remediation.</span></span></a>
-      <a class="tile" href="/hoarding-cleanup-services/"><span class="dot"></span><span><strong>Hoarding &amp; Cleanup Services</strong><span>Hoarding, clutter, encampment, tear gas and odor treatment.</span></span></a>
-      <a class="tile" href="/areas-we-service/"><span class="dot"></span><span><strong>Areas We Service</strong><span>Our Dallas and Fort Worth offices and metroplex coverage.</span></span></a>
+      <a class="tile" href="/services/biohazard/"><span class="dot"></span><span><strong>Biohazard Services</strong><span>Blood, crime scene, death, decomposition, hazmat and drug remediation.</span></span></a>
+      <a class="tile" href="/services/hoarding/"><span class="dot"></span><span><strong>Hoarding &amp; Cleanup Services</strong><span>Hoarding, clutter, encampment, tear gas and odor treatment.</span></span></a>
+      <a class="tile" href="/service-area/"><span class="dot"></span><span><strong>Areas We Service</strong><span>Our Dallas and Fort Worth offices and metroplex coverage.</span></span></a>
       <a class="tile" href="/about/"><span class="dot"></span><span><strong>About Us</strong><span>Who we are and how we approach this work.</span></span></a>
-      <a class="tile" href="/about/who-we-serve/"><span class="dot"></span><span><strong>Who We Serve</strong><span>Families, landlords, businesses, agencies and first responders.</span></span></a>
+      <a class="tile" href="/who-we-help/"><span class="dot"></span><span><strong>Who We Serve</strong><span>Families, landlords, businesses, agencies and first responders.</span></span></a>
       <a class="tile" href="/contact-us/"><span class="dot"></span><span><strong>Contact Us</strong><span>Reach us 24 hours a day, 7 days a week.</span></span></a>
     </div>
   </div>

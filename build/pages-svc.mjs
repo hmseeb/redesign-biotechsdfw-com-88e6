@@ -54,10 +54,10 @@ export function biohazard() {
 ${ctaBand({ heading: 'Not sure which service you need?', text: 'Call either office and describe the situation. We will tell you what the scope is likely to be, what it will involve, and how quickly we can be there.' })}`;
 
   return {
-    file: 'biohazard-services/index.html',
+    file: 'services/biohazard/index.html',
     title: 'Biohazard Services | Blood, Crime Scene & Death Cleanup Dallas–Fort Worth',
     desc: 'Biohazard cleanup, blood cleanup, crime scene cleanup, death and suicide cleanup, decomposition, hazmat, bodily fluids, feces/urine and drug remediation across Dallas–Fort Worth. 24/7.',
-    url: '/biohazard-services/',
+    url: '/services/biohazard/',
     active: 'bio',
     body
   };
@@ -94,10 +94,10 @@ export function hoarding() {
 ${ctaBand({ heading: 'Helping someone else make this call?', text: 'Many hoarding enquiries come from a family member, neighbour or case worker. Call us and we will talk through how to approach it without making things harder.' })}`;
 
   return {
-    file: 'hoarding-cleanup-services/index.html',
+    file: 'services/hoarding/index.html',
     title: 'Hoarding & Cleanup Services | Clutter, Encampment & Odor Removal DFW',
     desc: 'Hoarding cleanup, clutter cleanup, homeless encampment and camp cleanup, tear gas cleanup, odor treatment and disinfection services across Dallas–Fort Worth. Available 24/7.',
-    url: '/hoarding-cleanup-services/',
+    url: '/services/hoarding/',
     active: 'hoard',
     body
   };
@@ -177,10 +177,10 @@ export function areas() {
 ${ctaBand({ heading: 'Tell us where the property is', text: 'Call the office nearest you and we will confirm coverage and dispatch immediately.' })}`;
 
   return {
-    file: 'areas-we-service/index.html',
+    file: 'service-area/index.html',
     title: 'Areas We Service | BioTechs Online Dallas–Fort Worth Metroplex',
     desc: 'BioTechs Online serves the Dallas–Fort Worth metroplex from offices at 13355 Noel Road, Dallas and 9500 Ray White Road, Fort Worth. Available 24 hours a day, 7 days a week.',
-    url: '/areas-we-service/',
+    url: '/service-area/',
     active: 'areas',
     body
   };
