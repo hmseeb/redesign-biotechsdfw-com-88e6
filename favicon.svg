@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="BioTechs Online">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2fb673"/>
+      <stop offset="0.5" stop-color="#0fb0ab"/>
+      <stop offset="1" stop-color="#1877d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#070d18"/>
+  <circle cx="32" cy="22" r="6.4" fill="none" stroke="url(#g)" stroke-width="3.4"/>
+  <circle cx="20.6" cy="41.5" r="6.4" fill="none" stroke="url(#g)" stroke-width="3.4"/>
+  <circle cx="43.4" cy="41.5" r="6.4" fill="none" stroke="url(#g)" stroke-width="3.4"/>
+  <path d="M32 28.8v4.4M29 34.6l-4.6 2.6M35 34.6l4.6 2.6" stroke="url(#g)" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+</svg>

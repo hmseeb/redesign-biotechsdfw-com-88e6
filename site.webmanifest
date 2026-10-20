@@ -1,0 +1,12 @@
+{
+  "name": "BioTechs Online",
+  "short_name": "BioTechs",
+  "description": "24/7 biohazard, crime scene and hoarding cleanup across the Dallas-Fort Worth metroplex.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070d18",
+  "theme_color": "#070d18",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
