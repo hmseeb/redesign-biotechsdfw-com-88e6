@@ -99,6 +99,11 @@
       "source": "/review/",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/admin",
+      "destination": "https://vision.leadrai.com/site-admin/site-b69b53ed0c2732ce7d7df26ac2bc0dfbbd9a",
+      "permanent": false
     }
   ]
 }
